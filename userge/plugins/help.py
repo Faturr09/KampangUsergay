@@ -66,7 +66,8 @@ REPO_X = InlineQueryResultArticle(
         [
             [
                 InlineKeyboardButton(
-                    "💎 『𝘒𝘢𝘮𝘱𝘢𝘯𝘨𝘜𝘴𝘦𝘳𝘨𝘢𝘺』 Repo", url="https://github.com/ManusiaRakitan/KampangUsergay"
+                    "💎 『𝘒𝘢𝘮𝘱𝘢𝘯𝘨𝘜𝘴𝘦𝘳𝘨𝘢𝘺』 Repo",
+                    url="https://github.com/ManusiaRakitan/KampangUsergay",
                 ),
                 InlineKeyboardButton(
                     "🎉 Deploy 『𝘒𝘢𝘮𝘱𝘢𝘯𝘨𝘜𝘴𝘦𝘳𝘨𝘢𝘺』",
@@ -1139,7 +1140,9 @@ if userge.has_bot:
 
             MAIN_MENU = InlineQueryResultArticle(
                 title="Main Menu",
-                input_message_content=InputTextMessageContent(" 『𝘒𝘢𝘮𝘱𝘢𝘯𝘨𝘜𝘴𝘦𝘳𝘨𝘢𝘺』 𝘔𝘈𝘐𝘕 𝘔𝘌𝘕𝘜"),
+                input_message_content=InputTextMessageContent(
+                    " 『𝘒𝘢𝘮𝘱𝘢𝘯𝘨𝘜𝘴𝘦𝘳𝘨𝘢𝘺』 𝘔𝘈𝘐𝘕 𝘔𝘌𝘕𝘜"
+                ),
                 url="https://github.com/ManusiaRakitan/KampangUsergay",
                 description="Userge-X Main Menu",
                 thumb_url="https://i.imgur.com/1xsOo9o.png",
